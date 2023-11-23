@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.footer {
+  background: #052c34;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.footer .icons a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.footer .icons a:hover {
+  color: #44d384;
+}
+
+.footer .services ul {
+  width: 100%;
+}
+
+.footer .services ul li {
+  display: inline-block;
+  margin: 40px 30px;
+}
+
+.footer .services ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer .services ul li a:hover {
+  color: #44d384;
+}
+
+.footer .services a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+.footer .copy {
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 12px;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+  .footer .row a i {
+    margin: 0% 3%;
+  }
+}

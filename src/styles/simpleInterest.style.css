@@ -1,0 +1,474 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+* {
+  font-family: "rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Fondo de la sección */
+.section-simpleInterest {
+  background-color: #95eabc;
+  padding: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 5.2rem;
+}
+
+.container-InteresSimple {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-InteresSimple {
+  margin: 20px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px #052c34;
+}
+
+span {
+  color: tomato;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 10px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.ic23 {
+  margin-top: 20px;
+}
+
+.ic3 {
+  height: 50px;
+  margin-top: 20px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 0.35fr);
+}
+
+.ic4 {
+  margin-top: 30px;
+}
+
+/* Aquí inician el dropdowm */
+.labels {
+  color: #052c34;
+  font-size: 1.5rem;
+}
+
+.dropone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-weight: 500;
+  height: 10%;
+  outline: 0;
+  margin-top: 30px;
+  padding: 4px 0px 4px 20px;
+  width: 100%;
+}
+
+.dropone select {
+  background-color: #fff;
+  font-family: "rubik", sans-serif;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-weight: 400;
+  height: 80%;
+  outline: 0;
+  padding: 0px 10px 0;
+  width: 70%;
+}
+
+/* Inicia el campo de las fechas */
+.labelfecha {
+  color: #052c34;
+  font-size: 1.2rem;
+}
+
+.dated {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-weight: 500;
+  outline: 0;
+  margin-top: 5px;
+  padding: 4px 0px 4px 20px;
+  width: 100%;
+}
+
+.dated-two {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-weight: 500;
+  outline: 0;
+  margin-top: 5px;
+  padding: 4px 0px 4px 20px;
+  width: 100%;
+}
+
+.fecha {
+  background-color: #fff;
+  font-family: "rubik", sans-serif;
+  border-radius: 8px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-weight: 400;
+  height: 0%;
+  outline: 0;
+  padding: 5px 10px 5px;
+  margin: 3px;
+  width: 60%;
+}
+
+.input {
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.input-one {
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width:90%;
+}
+
+.input-two {
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 90%;
+}
+
+.input-three {
+  background-color: #d5e7e0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #052c34;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 90%;
+}
+
+.cut {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 120px;
+}
+
+.cut-short-three {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 85px;
+}
+
+.cut-short-sone {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 20px;
+  left: 25px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 50px;
+}
+
+.cut-short-stwo {
+  background-color: #ffff;
+  border-radius: 10px;
+  height: 20px;
+  left: 127px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 50px;
+}
+
+.cut-short-sthree {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 20px;
+  left: 230px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 50px;
+}
+
+.cut-short {
+  width: 60px;
+}
+
+.cut-short-two {
+  width: 70px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.input-one:focus ~ .cut-short-sone,
+.input-one:not(:placeholder-shown) ~ .cut-short-sone {
+  transform: translateY(8px);
+}
+
+.input-two:focus ~ .cut-short-stwo,
+.input-two:not(:placeholder-shown) ~ .cut-short-stwo {
+  transform: translateY(8px);
+}
+
+.input-three:focus ~ .cut-short-sthree,
+.input-three:not(:placeholder-shown) ~ .cut-short-sthree {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: #052c34;
+  font-size: 1.5rem;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.placeholder-one {
+  color: #052c34;
+  font-size: 1.5rem;
+  left: 27px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.placeholder-two {
+  color: #052c34;
+  font-size: 1.5rem;
+  left: 125px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.placeholder-three {
+  color: #052c34;
+  font-size: 1.5rem;
+  left: 231px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input-one:focus ~ .placeholder-one,
+.input-one:not(:placeholder-shown) ~ .placeholder-one {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input-two:focus ~ .placeholder-two,
+.input-two:not(:placeholder-shown) ~ .placeholder-two {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input-three:focus ~ .placeholder-three,
+.input-three:not(:placeholder-shown) ~ .placeholder-three {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input-one:not(:placeholder-shown) ~ .placeholder-one {
+  color: #808097;
+}
+
+.input-two:not(:placeholder-shown) ~ .placeholder-two {
+  color: #808097;
+}
+
+.input-three:not(:placeholder-shown) ~ .placeholder-three {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #052c34;
+}
+
+.input-two:focus ~ .placeholder-one {
+  color: #052c34;
+}
+
+.input-two:focus ~ .placeholder-two {
+  color: #052c34;
+}
+
+.input-two:focus ~ .placeholder-three {
+  color: #052c34;
+}
+
+/* Botones finales */
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "rubik", sans-serif;
+  background-color: #44d384;
+  gap: 5px;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit:hover {
+  background-color: #052c34;
+}
+
+.clear {
+  font-family: "rubik", sans-serif;
+  background-color: #fff;
+  color: #052c34;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+  font-size: 12px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.clear:hover {
+  background-color: #d5e7e0;
+}
